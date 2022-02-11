@@ -2,18 +2,21 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Hero Academic</title>
-
+    <title>my-shop</title>
+    
     <link rel="stylesheet" href="https://unpkg.com/reset-css@5.0.1/reset.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quintessential&family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">
 
+
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <header class="menu-bar container">
+    <header class="menu-bar container" >
       <img src="./images/logo.png" alt="logo" class="logo" />
       <nav class="nav-menu">
         <ul class="nav-list">
@@ -28,8 +31,8 @@
       <!-- Hero Section -->
       <section class="hero-section section">
         <h1 class="hero-title container">
-          I am rich<br />
-          I am Batman !!!!!
+          Let's go out <br />
+          Enjoy your life ...
         </h1>
       </section>
 
@@ -69,6 +72,7 @@
               alt="Photo by Malvestida Magazine on Unsplash"
               class="product-item-image"
             />
+            <div class="product-label">New</div>
             <h3 class="product-item-title">Pinky Pink</h3>
             <p>Congue nisi vitae suscipit tellus mauris a diam maecenas sed.</p>
             <p class="price">฿2,490</p>
@@ -79,9 +83,10 @@
               alt="Photo by Alexander Rotker on Unsplash"
               class="product-item-image"
             />
+            <div class="product-label">SALE 50%</div>
             <h3 class="product-item-title">Out of the Blue</h3>
             <p>Non sodales neque sodales ut etiam sit amet nisl purus.</p>
-            <p class="price">฿4,990</p>
+            <p class="price"> <strike> ฿9,980</strike>   ฿4,990</p>
           </li>
           <li class="product-item">
             <img
@@ -141,6 +146,7 @@
             alt="Photo by Raoul Ortega on Unsplash"
             class="about-image"
           />
+          <div class="about-info">
           <p class="about-description">
             Vel orci porta non pulvinar. Non sodales neque sodales ut etiam sit
             amet nisl purus. Eget dolor morbi non arcu risus quis. Posuere urna
@@ -151,7 +157,9 @@
             a erat nam. Amet mauris commodo quis imperdiet massa. Amet venenatis
             urna cursus eget.
           </p>
+        
           <a href="/" class="button">Know Us More</a>
+        </div>
         </div>
       </section>
     </main>
