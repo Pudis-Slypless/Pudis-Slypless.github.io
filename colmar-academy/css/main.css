@@ -127,6 +127,12 @@ display: block;
 }
 
 /* -----end----- */
+@media only screen and (min-width: 600px)
+.video {
+    width: 100%;
+    margin-bottom: 24px;
+
+
 .text-right {
     position: relative;
     padding-right: 20px;
