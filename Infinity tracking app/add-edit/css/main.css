@@ -1,0 +1,70 @@
+/* head */
+
+.manu-bar {
+    position: sticky;
+    width: 100%;
+    background-color: wheat ;
+    z-index: 100;
+    border-radius: 18px;
+    padding-left: 60px;
+    padding-right: 40px;
+    margin-right: 0;
+}
+
+.text-logo {
+    padding-left: 30px;
+    font-size: x-large;
+}
+
+.logo-bar {
+    display: flex;
+    align-items: center;
+}
+
+
+/* side-bar  */
+
+
+
+/* Body page */
+.ft-name {
+    padding-top: 50px;
+}
+
+.ac-icon {
+    display: flex;
+    justify-content: end;
+}
+
+.ac-text {
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    padding: 0px;
+}
+
+/* name */
+.text-name {
+    display: flex;
+    justify-content: end;
+    font: 30px bold;
+    margin-right: 40px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.input-box {
+    display: flex;
+    font: 20px bold;
+    margin-left: 40px;
+    margin-top: 45px;
+    align-items: center;
+    width: fit-content;
+}
+
+.button-ac {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 40px;
+}

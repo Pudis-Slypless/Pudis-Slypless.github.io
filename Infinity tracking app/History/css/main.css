@@ -1,0 +1,47 @@
+/* head */
+
+.manu-bar {
+    position: sticky;
+    width: 100%;
+    background-color: wheat ;
+    z-index: 100;
+    border-radius: 18px;
+    padding-left: 60px;
+    padding-right: 40px;
+    margin-right: 0;
+}
+
+.text-logo {
+    padding-left: 30px;
+    font-size: x-large;
+}
+
+.logo-bar {
+    display: flex;
+    align-items: center;
+}
+
+
+/* side-bar  */
+
+
+
+/* Body page */
+.text-banner {
+    display: flex;
+    justify-content: center;
+    font: 70px bold;
+    margin-top: 30px;
+}
+
+.table-ac {
+    width: 80%;
+}
+
+.list-ac {
+    background-color: aquamarine;
+}
+
+.baged-ac {
+    margin-left: -40px;
+}
